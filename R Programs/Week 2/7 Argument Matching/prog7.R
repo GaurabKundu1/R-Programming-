@@ -1,0 +1,6 @@
+mydata<- rnorm(100)
+sd(mydata)
+sd(x=mydata)
+sd(x=mydata,na.rm = FALSE)
+sd(na.rm=FALSE,x=mydata)
+sd(na.rm = FALSE,mydata)
